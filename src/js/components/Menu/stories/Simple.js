@@ -5,7 +5,7 @@ import { grommet } from 'grommet/themes';
 
 const SimpleMenu = () => (
   <Grommet theme={grommet}>
-    <Box align="center" pad="large">
+    <Box align="center" pad="large" margin={{ top: 'xlarge' }}>
       <Menu
         dropProps={{
           align: { top: 'bottom', left: 'left' },
